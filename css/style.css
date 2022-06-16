@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.color{
+    color:lightsteelblue;
+    font-size: 60px;
+}
+.section_header{
+    background-color: #00A651;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px ;
+    padding-right: 490px ;
+}
+.logo-text{
+max-width: 137px;
+color: white;
+padding-left: 20px;
+}
+li{
+    display: inline;
+    color: white;
+    list-style-type: none;
+    padding-left: 20px ;
+    cursor: pointer;
+    
+
+}
+ul{
+    padding: 0;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+
+ 
+}
+li:hover{
+    color:yellow;
+    transition-duration: .5s;
+}
+.banner {
+    height: 1000px;
+    background-image: url("../img/banner1.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position-x: ;
+}
